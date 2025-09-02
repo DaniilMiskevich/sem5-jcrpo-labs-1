@@ -71,6 +71,10 @@ public class Complex {
         return this;
     }
 
+    public Complex neg() {
+        return new Complex(-this.re, -this.im);
+    }
+
     /**
      * Multiply operation.
      * @param  b multiplier
